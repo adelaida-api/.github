@@ -30,9 +30,9 @@
 ### Backend
 - **Java 17**
 - **Spring Boot**
-- **Spring Cloud Gateway**
+- **Spring Cloud Gateway**, **Spring Cloud Kubernetes** (planned)
 - **Swagger/OpenAPI** (API doc generation)
-- **Docker**, **Kubernetes** (containerisation and deployment)
+- **Podman**, **Kubernetes** (containerisation and deployment)
 - (Planned) **gRPC**, **Dubbo** and **Spring Cloud Kubernetes**
 
 ## 📌 Roadmap
