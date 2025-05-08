@@ -2,8 +2,6 @@
 
 **AirportAPI** is an open API platform designed to simplify, secure, and visualise API access for developers and third-party systems. Unlike Swagger or OpenAPI, which focus solely on documentation, AirportAPI offers a full-stack solution for API publishing, invocation, protection, billing, and analytics.
 
----
-
 ## 🚀 Features
 
 - 🔐 **Secure API Gateway**: Built-in access control, rate limiting, and user authentication.
@@ -14,16 +12,12 @@
 - 💸 **Billing Support**: Track and enforce usage-based billing policies (planned).
 - 📦 **SDK Generator**: Generate and download client SDKs for fast integration (planned).
 
----
-
 ## 💡 Use Cases
 
 - Frontend teams accessing backend APIs without backend involvement
 - Exposing internal APIs to trusted third-party services (e.g., operations job schedulers, monitoring systems)
 - Managing third-party API integration securely and with call limits
 - Visualising API usage and enforcing cost control via billing mechanisms
-
----
 
 ## 🧱 Tech Stack
 
@@ -39,9 +33,7 @@
 - **Spring Cloud Gateway**
 - **Swagger/OpenAPI** (API doc generation)
 - **Docker**, **Kubernetes** (containerisation and deployment)
-- (Planned) **gRPC** and **Spring Cloud Kubernetes**
-
----
+- (Planned) **gRPC**, **Dubbo** and **Spring Cloud Kubernetes**
 
 ## 📌 Roadmap
 
