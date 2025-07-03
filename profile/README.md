@@ -1,69 +1,74 @@
-# ✈️ AirportAPI
+# Adelaida
 
-**AirportAPI** is an open API platform designed to simplify, secure, and visualise API access for developers and third-party systems. Unlike Swagger or OpenAPI, which focus solely on documentation, AirportAPI offers a full-stack solution for API publishing, invocation, protection, billing, and analytics.
+**Adelaida** is an **open API platform** designed to unify RESTful API access and management for both developers and system administrators. It allows developers to browse, test, and integrate APIs seamlessly while giving administrators full control over API exposure, usage analytics, and access control.
 
 ## 🚀 Features
 
-- 🔐 **Secure API Gateway**: Built-in access control, rate limiting, and user authentication.
-- 📊 **Usage Statistics**: Real-time monitoring of API calls, visualised via dashboards.
-- 📄 **API Documentation**: Automatically generated OpenAPI/Swagger spec.
-- 🧑‍💻 **Developer Portal**: Frontend developers can browse, test, and call APIs easily.
-- ⚙️ **Admin Panel**: Full CRUD management of API definitions and user access.
-- 💸 **Billing Support**: Track and enforce usage-based billing policies (planned).
-- 📦 **SDK Generator**: Generate and download client SDKs for fast integration (planned).
+### For Developers
+- **Explore Available APIs** with detailed Swagger/OpenAPI documentation.
+- **Interactive Online Testing** via web interface.
+- **SDK Integration** to quickly connect APIs to your applications.
+- **API Access Control**: Apply for and manage API usage permissions.
 
-## 💡 Use Cases
+### For Administrators
+- **API Management**: Register and publish new APIs.
+- **Traffic Monitoring**: Real-time usage statistics and call frequency.
+- **Access Control**: Limit access to authorised users.
+- **Rate Limiting & Throttling**: Prevent abuse with traffic policies.
+- **Billing Support**: Enable paid API access models.
+- **Security Measures**: Protect APIs from attacks.
+- **Gateway-Based Routing**: Handle API routing and filtering efficiently.
 
-- Frontend teams accessing backend APIs without backend involvement
-- Exposing internal APIs to trusted third-party services (e.g., operations job schedulers, monitoring systems)
-- Managing third-party API integration securely and with call limits
-- Visualising API usage and enforcing cost control via billing mechanisms
+Unlike OpenAPI or Swagger, which focus on documentation, Adelaida provides a full-featured platform to support secure, scalable, and controlled API usage.
 
-## 🧱 Tech Stack
+---
+
+## 📦 Tech Stack
 
 ### Frontend
-- **React** + **UmiJS**
-- **TypeScript**
-- **Ant Design Pro** + ProComponents
-- **Umi Request**
+- React
+- TypeScript
+- Ant Design Pro
+- Umi
+- **OpenAPI code generation** for automatic client code scaffolding
 
 ### Backend
-- **Java 17**
-- **Spring Boot**
-- **Spring Cloud Gateway**, **Spring Cloud Kubernetes** (planned)
-- **Swagger/OpenAPI** (API doc generation)
-- **Podman**, **Kubernetes** (containerisation and deployment)
-- (Planned) **gRPC**, **Dubbo** and **Spring Cloud Kubernetes**
+- Java 17
+- Spring Boot
+- MySQL 8
+- MyBatis Plus
+- Swagger / OpenAPI documentation generation
+- Spring Cloud Gateway for:
+  - Routing
+  - Rate limiting
+  - Logging
+- Apache Dubbo for distributed RPC
 
-## 📌 Roadmap
+---
 
-### ✅ Phase 1: Initial Setup (Ongoing)
+## 📚 Use Cases
 
-- Project scaffold and architecture
-- Basic API management and browsing
+1. **Frontend Teams** needing stable and structured access to backend services.
+2. **Third-party Systems** integrating and reusing existing functionality securely.
+3. **Enterprise Developers** looking for a managed API environment with access control and metering.
 
-### 🔄 Phase 2: API Invocation
+---
 
-- Online testing and OpenAPI display
-- Security enforcement & SDK dev
+## 🛡️ Security & Governance
 
-### 🔜 Phase 3: Billing & Protection
+- Fine-grained permission control per user and per API
+- Configurable rate limiting to prevent misuse
+- Audit logs for traceability
+- API token authentication and access keys
 
-- Call statistics, rate limits
-- Billing logic and logs
+---
 
-### 🧠 Phase 4: Admin Analytics
+## 📄 License
 
-- Real-time dashboards via AntV
-- Trends and insights for API usage
+GPL
 
-<!--
+---
 
-**Here are some ideas to get you started:**
+## 🤝 Contributions
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Contributions are welcome! Please open an issue or pull request to get involved.
