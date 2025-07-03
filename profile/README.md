@@ -14,8 +14,7 @@
 - **API Management**: Register and publish new APIs.
 - **Traffic Monitoring**: Real-time usage statistics and call frequency.
 - **Access Control**: Limit access to authorised users.
-- **Rate Limiting & Throttling**: Prevent abuse with traffic policies.
-- **Billing Support**: Enable paid API access models.
+- **Rate Limiting**: Prevent abuse with traffic policies.
 - **Security Measures**: Protect APIs from attacks.
 - **Gateway-Based Routing**: Handle API routing and filtering efficiently.
 
