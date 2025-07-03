@@ -64,7 +64,7 @@ Unlike OpenAPI or Swagger, which focus on documentation, Adelaida provides a ful
 
 ## 📄 License
 
-GPL
+GPL-2.0
 
 ---
 
